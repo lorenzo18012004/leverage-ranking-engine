@@ -1,6 +1,6 @@
 # Leverage Ranking Engine
 
-Moteur de classement de stratégies optionnelles par levier (Ω, Rachev, L, L^rob), pour futures STIR (SOFR, Euribor...). Le cadre théorique complet est détaillé dans [`exercice.pdf`](exercice.pdf).
+Moteur de classement de stratégies optionnelles par levier (Ω, Rachev, L, L^rob), pour futures STIR (SOFR, Euribor...). Le cadre théorique complet est détaillé dans [`Exercice_Quant_BGC.pdf`](Exercice_Quant_BGC.pdf).
 
 ## Lancer le projet
 
@@ -17,7 +17,7 @@ Chaque exécution simule un marché et un univers de stratégies aléatoires (pa
 Le projet a **2 fichiers Python**, avec des rôles bien séparés :
 
 - **`mock_engine.py`** = génère des **données de test factices** (un marché fictif, une chaîne d'options fictive, un univers de stratégies, un scénario client fictif). Le nom "mock" veut dire "simulé/factice" — ce n'est pas une vraie source de données de marché, juste de quoi alimenter le moteur de classement pour le tester/démontrer.
-- **`leverage_engine.py`** = le **vrai moteur** : calcule et classe les stratégies par levier (Ω, Rachev, L, L^rob), conformément à `exercice.pdf`.
+- **`leverage_engine.py`** = le **vrai moteur** : calcule et classe les stratégies par levier (Ω, Rachev, L, L^rob), conformément à `Exercice_Quant_BGC.pdf`.
 
 ---
 
